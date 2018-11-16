@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">EduActive</string>
+    <string name="title_activity_tela1_activity">tela1_activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_primeira">PrimeiraActivity</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="listadisciplinas">
+        <item>"Selecione"</item>
+    </array>
+    <string name="textoajuda">
+        O aplicativo tem como objetivo facilitar, através da tecnologia móvel, o compartilhamento de conhecimentos didáticos entre os professores, visando assim a melhoria no processo de ensino-aprendizagem. Ao iniciar o app , o docente tem acesso às seguintes funcionalidades:
+
+    </string>
+    <string name="itemum">
+        •	Suas ideias: O usuário pode ver, editar ou excluir as metodologias de ensino previamente cadastradas por ele;
+
+    </string>
+    <string name="itemdois">
+•	Compartilhar ideia: Espaço destinado ao cadastro de metodologias de ensino;
+
+    </string>
+    <string name="itemtres">
+•	Pesquisar ideias: Lista com todas as metodologias cadastradas no aplicativo. Ao selecionar uma destas metodologias, é mostrado um detalhamento da mesma que contem, inclusive, um link para a visualização de possíveis feedbacks;
+
+    </string>
+    <string name="itemquatro">
+
+•	Registrar feedbacks: O professor pode compartilhar os resultados e considerações a respeito da aplicação das metodologias cadastrada (por ele e pelos outros usuários).
+
+    </string>
+</resources>

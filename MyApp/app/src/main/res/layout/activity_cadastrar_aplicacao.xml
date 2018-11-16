@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.CadastrarAplicacao"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/selectmetodo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Pesquisar estratégia"
+                android:inputType="textNoSuggestions"
+                android:singleLine="false"
+                app:bootstrapBrand="info"
+
+                app:bootstrapSize="lg"
+                app:roundedCorners="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buscametodo"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerDisc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:spinnerMode="dropdown"
+        android:entries="@array/listadisciplinas"
+        android:layout_margin="10dp"
+        android:background="@drawable/spinnerdropdown"
+
+        />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/edtpros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Pontos Positivos"
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                app:bootstrapBrand="info"
+                app:bootstrapSize="lg"
+                app:roundedCorners="true" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/edtContras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Pontos Negativos"
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                app:bootstrapBrand="info"
+                app:bootstrapSize="lg"
+                app:roundedCorners="true" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/buttonCadApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="lg"
+        app:roundedCorners="true"
+        android:layout_margin="10dp"
+        android:text="Cadastrar"
+        app:bootstrapBrand="info"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

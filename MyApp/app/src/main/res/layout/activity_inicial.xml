@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Inicial">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/content_frame_home">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/pesquisahome">
+                <com.beardedhen.androidbootstrap.BootstrapEditText
+                    app:bootstrapSize="lg"
+                    app:bootstrapBrand="info"
+                    app:roundedCorners="true"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtProcurarhome"
+                    android:hint="Suas estratégias"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvlistaestrategiahome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/naoCadastra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

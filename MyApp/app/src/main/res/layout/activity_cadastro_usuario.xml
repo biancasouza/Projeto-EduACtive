@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginTop="0dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.biank.meuapp.Activity.CadastroUsuarioActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/imperfil"/>
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/cadNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:hint="Nome Completo"
+            android:inputType="text"
+            android:singleLine="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:bootstrapSize="lg"
+            app:roundedCorners="true" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/cadFormacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Formação"
+            android:inputType="text"
+            android:singleLine="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:bootstrapSize="lg"
+            app:roundedCorners="true" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/cadEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:singleLine="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:bootstrapSize="lg"
+            app:fontFamily="casual"
+            app:roundedCorners="true" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/cadSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:singleLine="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:bootstrapSize="lg"
+            app:roundedCorners="true" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/cadSenha2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Repita a senha"
+            android:inputType="textPassword"
+            android:singleLine="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:bootstrapSize="lg"
+            app:roundedCorners="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/btnUploadPerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bootstrapSize="lg"
+                app:roundedCorners="true"
+                android:text="Foto"
+                app:bootstrapBrand="info"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txt_statusPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Nenhum arquivo selecionado"
+                android:textSize="14sp"
+   />
+
+        </LinearLayout>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="lg"
+        app:roundedCorners="true"
+        android:layout_margin="10dp"
+        android:text="Cadastrar"
+        app:bootstrapBrand="info"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+       />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

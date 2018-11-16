@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/mostra1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MostrarEstrategia">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/content_frame2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+            <TextView
+                android:id="@+id/retornaTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 - Descrição"
+                android:layout_marginTop="30dp"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/retornaDesc"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+
+                />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 - Sequência Didática"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+            <TextView
+                android:id="@+id/retornaSequencia"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3- Competências Trabalhadas"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            <TextView
+                android:id="@+id/retornaCompetencia"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 - Arquivos: "
+                    android:layout_marginTop="10dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/txtPdf"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Não foram adicionados arquivos "
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+
+                    />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5 - Fedbacks: "
+                    android:layout_marginTop="10dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+            <TextView
+                android:id="@+id/qtd_av"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+
+
+                />
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

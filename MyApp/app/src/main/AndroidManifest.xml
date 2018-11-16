@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.biank.meuapp">
+
+    <!-- O app terá acesso à Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize|navigation|keyboardHidden|layoutDirection|screenLayout|locale"
+        android:icon="@mipmap/ic_launcher_logopng"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logopng_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.CadastroUsuarioActivity" />
+        <activity android:name=".Activity.ResetarSenha" />
+        <activity android:name=".Activity.MostrarEstrategia" />
+        <activity android:name=".Activity.ListarAplicacoes" />
+        <activity
+            android:name=".Activity.PrincipalActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_primeira"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.MostrarAplicacao" />
+        <activity
+            android:name=".Activity.editMetodo"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".Activity.help"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MostrarAplicacao">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/retornaCont"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="14dp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 - Estratégia"
+                    android:layout_marginTop="30dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/retornaMetodo"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 - Disciplina"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/retornaDisc"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 - Pontos Positivos"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/retornaPros"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 - Pontos Negativos"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+
+                    />
+                <TextView
+                    android:id="@+id/retornaContras"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+                    android:layout_margin="10dp"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="40dp"
+                    >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aplicado por:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/retornaAutor"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+                   android:layout_marginLeft="10dp"
+                    />
+                </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data do feedback:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/retornaData"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="10dp"
+
+                    />
+
+        </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_initial"
+            android:icon="@drawable/ic_ideia"
+            android:checkable="true"
+            android:title="Suas Ideias"
+            />
+        <item
+            android:id="@+id/nav_segunda"
+            android:icon="@drawable/ic_menu_share"
+            android:checkable="true"
+            android:title="Compartilhar Ideia" />
+        <item
+            android:id="@+id/nav_pesquisaestrategia"
+            android:icon="@drawable/ic_pesquisa"
+            android:checkable="true"
+            android:title="Pesquisar Ideias" />
+        <item
+            android:id="@+id/nav_cadaplicacao"
+            android:icon="@drawable/ic_feedback"
+            android:checkable="true"
+            android:title="Registrar Feedback" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:checkable="true"
+            android:title="Ajuda" />
+        <item
+            android:id="@+id/sair"
+            android:icon="@drawable/ic_power"
+            android:checkable="true"
+            android:title="Sair" />
+
+
+
+    </group>
+
+
+
+</menu>
